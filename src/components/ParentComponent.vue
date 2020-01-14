@@ -36,7 +36,8 @@ export default {
   },
 
   computed: {
-    ...mapState("images", ["currentImage"])
+    // ...mapState("images", ["currentImage"])
+    ...mapState("images", { currentImage: "currentImage" })
   },
 
   methods: {
