@@ -36,10 +36,6 @@ export default {
   },
 
   computed: {
-    // currentPackaging() {
-    //   console.log(this.$store.state.packagings.currentPackaging);
-    //   return this.$store.state.packagings.currentPackaging;
-    // }
     ...mapState("images", ["currentImage"])
   },
 
